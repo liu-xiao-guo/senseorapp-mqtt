@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=sensorapp
+Exec=qmlscene $@ sensorapp/Main.qml
+Icon=sensorapp/sensorapp.jpg
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+

@@ -1,0 +1,15 @@
+{
+    "name": "sensorapp.xiaoguo",
+    "description": "description of sensorapp",
+    "architecture": "@CLICK_ARCH@",
+    "title": "sensorapp",
+    "hooks": {
+        "sensorapp": {
+            "apparmor": "sensorapp/sensorapp.apparmor",
+            "desktop": "sensorapp/sensorapp.desktop"
+        }
+    },
+    "version": "1.0",
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "framework": "ubuntu-sdk-15.04"
+}
